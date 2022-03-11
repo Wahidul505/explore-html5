@@ -1,0 +1,31 @@
+nav > ul{
+  display: flex;
+  background-color: darkslategray;
+}
+nav li:hover{ 
+  background-color: indianred;
+}
+nav li{
+  list-style: none;
+  margin-right: 20px;
+  padding: 10px 10px;
+}
+nav li a{
+  text-decoration: none;
+  font-size:25px;
+  color: cyan;
+}
+.dropdown {
+  background-color:dodgerblue ;
+  display: none;         /** it hides the content */
+  padding: 0px;
+  margin: 0px;
+}
+nav ul li:hover ul {
+  display: block;      /** it's for returning the hidden content on     mouse over */
+  position: absolute;
+}
+.dropdown li{
+  padding: 2px 10px;
+  margin: 0px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles/nav.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="navigation.html">Home</a></li>
+        <li><a href="form.html">Form</a></li>
+        <li><a href="table.html">Table</a></li>
+        <li><a href="audio-video.html">Media</a>
+          <ul class="dropdown">
+            <li><a href="">link-1</a></li>
+            <li><a href="">link-2</a></li>
+            <li><a href="">link-3</a></li>
+            <li><a href="">link-4</a></li>
+          </ul>
+        </li>
+        <li><a href="dropdown.html">Dropdown</a></li>
+        <li><a href="">About us</a></li>
+      </ul>
+    </nav>
+    <h1> Welcome to Form </h1>
+  </header>
+  <h1>This is a food cort Form </h1>
+  <p>Name : <input type="text" placeholder="write your name "></p>
+  <p>Email : <input type="text" placeholder="write your email"></p>
+
+  <fieldset>
+    <select name="" id="">
+      <option value="">New customer</option>
+      <option value="">Old customer</option>
+      <option value="">Daily customer</option>
+    </select>
+  </fieldset>
+
+  <fieldset>
+    <legend>Choose your order</legend>
+    <p>
+      <label for="shawrma"><input type="radio" name="food" id="shawrma">Shawrma</label>
+    </p>
+    <p>
+      <label for="burger"><input type="radio" name="food" id="burger">Burger</label>
+    </p>
+    <p>
+      <label for="nachos"><input type="radio" name="food" id="nachos">Nachos</label>
+    </p>
+    <p>
+      <label for="pizza"><input type="radio" name="food" id="pizza">Pizza</label>
+    </p>
+    <p>
+      <label for="kacchi"><input type="radio" name="food" id="kacchi">Kacchi</label>
+    </p>
+  </fieldset>
+
+  <fieldset>
+    <legend>Extras</legend>
+    <p>
+      <label for="chees"><input type="checkbox" name="extra" id="chees">Chees</label>
+    </p>
+    <p>
+      <label for="sausage"><input type="checkbox" name="extra" id="sausage">Sausage</label>
+    </p>
+    <p>
+      <label for="drinks"><input type="checkbox" name="extra" id="drinks">Drinks</label>
+    </p>
+  </fieldset>
+
+  <h3>Add description for more extras </h3>
+  <textarea name="" id="" cols="30" rows="10"></textarea>
+  <p><button type="reset">Reset</button></p>
+  <p><button type="submit">Submit</button></p>
+
+</body>
+
+</html>
